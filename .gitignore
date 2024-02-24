@@ -1,0 +1,36 @@
+# Node
+/node_modules
+package-lock.json
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.venv/*
+
+# misc
+.DS_Store
+npm-debug.log*
+lambda_logs/execution.json
+/build
+
+# Folders
+/cypress/videos
+/cypress/screenshots
+/cypress/downloads
+reports
+/venv
+.env
+.idea/*
+.env_bak
+trcli-custom-config.yaml
+/cypress/support/utils/kafka/.env
+cypress/fixtures/kafkaMessages.json
+cypress.env.json
+update_env
+cypress/fixtures/recipesMapping.json
+cypress.env.json
+cypress/fixtures/createKey*
+cypress/e2e/sandbox/
+test-results.xml
+/cypress/support/utils/kafka/credentials
+
+
