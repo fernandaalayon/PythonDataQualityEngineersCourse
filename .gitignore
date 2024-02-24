@@ -19,7 +19,7 @@ lambda_logs/execution.json
 reports
 /venv
 .env
-.idea/
+.idea
 .env_bak
 trcli-custom-config.yaml
 /cypress/support/utils/kafka/.env
