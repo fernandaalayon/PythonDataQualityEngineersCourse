@@ -4,7 +4,7 @@ from statistics import mean
 
 def create_list() -> list:
     list_number = []
-    for number in range(10):  # For to populate the list
+    for number in range(100):  # For to populate the list
         list_number.append(random.randint(1, 100))  # Adding random values to the list
     return list_number
 
@@ -41,8 +41,8 @@ def get_average_odd_numbers(list_numbers: list) -> int:
 
 if __name__ == '__main__':
     list_numbers_definition = create_list()
-    print('Initial list: ', list_numbers_definition)
+    print('Initial LIST: ', list_numbers_definition)
     sort_list_min_max(list_numbers_definition)
-    print('Sorted list: ', list_numbers_definition)
+    print('Sorted LIST: ', list_numbers_definition)
     print('Even number average: ', get_average_even_numbers(list_numbers_definition))
     print('Odd number average: ', get_average_odd_numbers(list_numbers_definition))
